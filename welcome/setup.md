@@ -1,6 +1,7 @@
 ---
 title: "Setup (Lab 0)"
-date: 2020-02-16T23:12:49-08:00
+weight: 3
+authors: ["Vanshaj Singhania"]
 ---
 
 We've covered the basics, and it's time to get into it. Let's go ahead and install Python to get ourselves going.

@@ -1,12 +1,9 @@
 +++
 title = "Object-Oriented Programming"
-date = 2020-03-08T23:36:12-08:00
 weight = 6
 chapter = true
 pre = "<b>Week 6. </b>"
 +++
-
-### Week 6
 
 # Object-Oriented Programming
 

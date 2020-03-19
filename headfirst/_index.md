@@ -1,12 +1,9 @@
 +++
 title = "Head First into Python"
-date = 2020-02-18T23:31:28-08:00
 weight = 2
 chapter = true
 pre = "<b>Week 2. </b>"
 +++
-
-### Week 2
 
 # Head First into Python
 

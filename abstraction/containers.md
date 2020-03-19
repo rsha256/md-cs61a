@@ -1,6 +1,7 @@
 ---
 title: "Containers"
-date: 2020-02-18T23:41:51-08:00
+weight: 2
+authors: ["Vanshaj Singhania"]
 ---
 
 Sometimes, you have a series of data that goes together but you're not exactly sure how to store it, short of having a number of different variables to represent each individual piece. That's a little chaotic, so there has to be a simpler way to store them!

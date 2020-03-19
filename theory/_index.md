@@ -1,12 +1,9 @@
 +++
 title = "Theory & Practice"
-date = 2020-02-18T23:36:12-08:00
 weight = 3
 chapter = true
 pre = "<b>Week 3. </b>"
 +++
-
-### Week 3
 
 # Theory & Practice
 

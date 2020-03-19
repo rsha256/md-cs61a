@@ -1,6 +1,7 @@
 ---
 title: "Environment Diagrams"
-date: 2020-02-13T15:50:36-08:00
+weight: 7
+authors: ["Vanshaj Singhania"]
 ---
 
 Now that we know how to start basic coding, we should also look into how we can visualize our code. On a large scale, this is relatively hard to do as the project gets too big to visualize. However, when first learning how to program, it can be extremely useful to visualize your code and how it runs.

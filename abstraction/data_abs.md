@@ -1,6 +1,7 @@
 ---
 title: "Data Abstraction"
-date: 2020-02-17T23:41:57-08:00
+weight: 3
+authors: ["Vanshaj Singhania"]
 ---
 
 Say you have the following set of information:

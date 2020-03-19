@@ -1,6 +1,7 @@
 ---
 title: "Environments"
-date: 2020-02-14T23:34:27-08:00
+weight: 5
+authors: ["Vanshaj Singhania"]
 draft: true
 ---
 

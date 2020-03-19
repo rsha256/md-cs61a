@@ -1,6 +1,7 @@
 ---
 title: "For Statements"
-date: 2020-02-19T23:41:51-08:00
+weight: 1
+authors: ["Vanshaj Singhania"]
 ---
 
 So far, if we had to iterate over something, we used `while` statements. As it turns out, Python actually has another type of iteration: `for` statements. Here's an example:

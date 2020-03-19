@@ -1,12 +1,9 @@
 +++
 title = "Going Deeper"
-date = 2020-03-09T23:36:12-08:00
 weight = 7
 chapter = true
 pre = "<b>Week 7. </b>"
 +++
-
-### Week 7
 
 # Going Deeper
 

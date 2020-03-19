@@ -1,6 +1,7 @@
 ---
 title: "Expressions & Names"
-date: 2020-02-15T23:26:58-08:00
+weight: 5
+authors: ["Vanshaj Singhania"]
 ---
 
 We'll start off a little slow and talk about expressions in python. From your math classes, you probably know that an expression is anything that can be evaluated, like `24+3`, `5/2`, `6.72`, etc..

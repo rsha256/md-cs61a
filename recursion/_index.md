@@ -1,12 +1,9 @@
 +++
 title = "Recursion"
-date = 2020-02-18T23:38:10-08:00
 weight = 4
 chapter = true
 pre = "<b>Week 4. </b>"
 +++
-
-### Week 4
 
 # Recursion
 

@@ -1,6 +1,7 @@
 ---
 title: "Functions"
-date: 2020-02-14T23:27:04-08:00
+weight: 6
+authors: ["Vanshaj Singhania"]
 ---
 
 But what can you really do with all of these different expressions? If you combine them into functions, quite a bit.

@@ -1,6 +1,7 @@
 ---
 title: "Computer Science, Briefly"
-date: 2020-02-18T20:28:56-08:00
+weight: 2
+authors: ["Vanshaj Singhania"]
 ---
 
 Before we dive head-first into Python and the fundamentals of Computer Science, it's important that you understand exactly what "Computer Science" entails. You probably already have your own definition of CS -- and that definition is probably why you're here -- but I'd like to take a moment to try to encompass the beautiful breadth of the field you'll be getting acquainted to over the next few weeks.
