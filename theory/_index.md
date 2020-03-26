@@ -2,7 +2,6 @@
 title = "Theory & Practice"
 weight = 3
 chapter = true
-pre = "<b>Week 3. </b>"
 +++
 
 # Theory & Practice

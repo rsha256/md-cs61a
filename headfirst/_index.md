@@ -2,7 +2,6 @@
 title = "Head First into Python"
 weight = 2
 chapter = true
-pre = "<b>Week 2. </b>"
 +++
 
 # Head First into Python

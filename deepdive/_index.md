@@ -2,7 +2,6 @@
 title = "Going Deeper"
 weight = 7
 chapter = true
-pre = "<b>Week 7. </b>"
 +++
 
 # Going Deeper

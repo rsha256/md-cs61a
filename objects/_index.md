@@ -2,7 +2,6 @@
 title = "Object-Oriented Programming"
 weight = 6
 chapter = true
-pre = "<b>Week 6. </b>"
 +++
 
 # Object-Oriented Programming

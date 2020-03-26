@@ -2,7 +2,6 @@
 title = "Recursion"
 weight = 4
 chapter = true
-pre = "<b>Week 4. </b>"
 +++
 
 # Recursion
