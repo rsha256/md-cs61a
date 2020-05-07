@@ -1,5 +1,5 @@
 ---
-title: "Inheritance"
+title: "Generators"
 weight: 3
 draft: true
 ---

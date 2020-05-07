@@ -25,13 +25,13 @@ The course itself is pretty dense in terms of material covered, but this guide w
 - [ ] Coding Practices & PEP8
 
 ## Week 4. Recursion
+- [ ] For Statements
+- [ ] Containers
 - [ ] Introduction to Recursion
-- [ ] Recursion vs. Iteration
+- [ ] Recursion vs. Iteration, Examples
 - [ ] Tree Recursion
 
 ## Week 5. Abstraction
-- [ ] For Statements
-- [ ] Containers
 - [ ] Data Abstraction
 - [ ] Trees
 
@@ -52,7 +52,7 @@ The course itself is pretty dense in terms of material covered, but this guide w
 - [ ] The Tree Class
 - [ ] Decomposition
 
-## Week 9. Data Types Recap & Miscellaneous Topics
+## Week 9. Data Types & Misc Topics
 - [ ] Tuples & Sets
 - [ ] Lists & Dictionaries
 - [ ] Objects
@@ -83,13 +83,13 @@ The course itself is pretty dense in terms of material covered, but this guide w
 - [ ] Aggregation
 - [ ] Modifying Tables
 
-## Week 14. Recap & Miscellaneous Topics
+## Week 14. Recap & Misc Topics
 - [ ] Groups
 - [ ] Injection Attacks
 - [ ] Unix Systems
 - [ ] Big Data & Apache Spark
 
-## Week 15. Looking Ahead: Good Practices
-- [ ] How to Design Problems
+## Week 15. Looking Ahead
+- [ ] How to Design Programs
 - [ ] Privacy
 - [ ] What's Next?
