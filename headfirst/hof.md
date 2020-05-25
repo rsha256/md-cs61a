@@ -1,6 +1,6 @@
 ---
 title: "Higher Order Functions"
-weight: 4
+weight: 5
 authors: ["Vanshaj Singhania"]
 ---
 

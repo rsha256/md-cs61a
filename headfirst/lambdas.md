@@ -1,6 +1,6 @@
 ---
 title: "Lambdas"
-weight: 3
+weight: 4
 authors: ["Vanshaj Singhania"]
 ---
 
