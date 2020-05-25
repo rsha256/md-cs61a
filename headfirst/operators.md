@@ -37,7 +37,7 @@ If `x` is not smaller than `y`, we print `y`. There's a very subtle difference b
 
 This wasn't a very functional example for the `not` operator, but hopefully you see how it can be applied to other (more useful) cases.
 
-## The `and` Keyword
+## `and`
 What if you wanted to check whether `x` was in a certain range? You could do something like this:
 
 ```python
@@ -70,7 +70,7 @@ if x > 1 and x < 10 and x != 4:
 Side Note: Python actually has a nice feature built-in for checking if a number is in a certain range: `if 1 < x < 10:`. This has a very algebraic feel to it, which should help you make more sense of it. Note that `and` is still useful for cases where you're not checking numerical conditions, but this could be a cool trick to know.
 {{% /notice %}}
 
-## The `or` Keyword
+## `or`
 Similar to the `and` operator, `or` is very straightforward: if you want to check whether *one* of two or more conditions is true, you can chain them using `or`:
 
 ```python

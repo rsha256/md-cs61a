@@ -80,13 +80,7 @@ print(y)
 The result is the same.
 
 ## The `not` Keyword
-Now that we've gotten through a basic understanding of `while` loops, I want to quickly touch on a simple yet powerful keyword in Python: `not`. The purpose of this operator is to negate the condition it's applied to. For example:
-
-- `not True` is `False`
-- `not False` is `True`
-- `not x` is the opposite of `x`
-
-The last bit is especially useful. Say now that instead of finding the greatest divisor, we want to find the smallest number than *doesn't* evenly divide `x`. We can write this like so:
+Remember the `not` operator from the Conditional Operators guide? Say now that instead of finding the greatest divisor, we want to find the smallest number than *doesn't* evenly divide `x`. We can write this like so:
 
 ```python
 x = 6
