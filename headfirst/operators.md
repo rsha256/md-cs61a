@@ -6,7 +6,7 @@ authors: ["Vanshaj Singhania"]
 
 Right now, we know how to use simple conditions in `if-else` statements. What if we wanted to check the opposite of a condition? What about chaining conditions?
 
-## The `not` Keyword
+## `not`
 The purpose of this operator is to negate the condition it's applied to. For example:
 
 - `not True` is `False`
