@@ -68,7 +68,7 @@ You can create conditions in many ways, the most typical being the following:
 - `x >= y` true if `x` is greater than or equal to `y`
 - `x != y` true if `x` is not equal to `y`
 
-## Truthy, Falsey
+## Veritasiness
 The idea behind conditions is a notion of *truthy* and *falsey* values. Truthy values are values that evaluate to `True`, and falsey values evaluate to `False`. For each condition that I listed above, if the condition is true, then we have a truthy value. If it isn't, then we have a falsey value.
 
 This is sort of different from the general notion of `True` and `False`, because you could sometimes see code like this:
@@ -87,7 +87,7 @@ In the last case, how do you determine whether `x` is truthy or falsey? It's act
 
 Different languages do this differently, but this is the rundown of how Python handles truthy and falsey values.
 
-## `if, else-if, else` Statements
+## `if, elif, else` Statements
 We saw the `if` syntax above, which allows us to run code only if a certain condition is true. What if it isn't? We manually created the opposite condition in our quest to find the smaller of two numbers, but what happens if the two numbers are equal? Right now, nothing is printed, because neither condition is met!
 
 We can solve this using an `else` clause. If we remove the second condition and replace it with `else`, our code looks like this:
@@ -115,7 +115,7 @@ y = 2
 if x < y:
     print("Less than!")
     print(x)
-else if x == y:
+elif x == y:
     print("Equal to!")
     print(x) # or y, doesn't matter!
 else: # if is omiited, since at this point there is only 1 possibility
@@ -130,7 +130,7 @@ To recap, here's what an `if` statement can look like:
 ```python
 if <expression1>:
     <exp1 suite>
-[else if <expression2>:] # repeated as many
+[elif <expression2>:   ] # repeated as many
 [   <exp2 suite>       ] # times as you wish.
 [else:                 ] # both else if and
 [   <else suite>       ] # else are optional.
