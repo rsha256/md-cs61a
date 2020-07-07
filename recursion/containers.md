@@ -65,7 +65,9 @@ Sometimes, you only need a piece of a list. You can copy such a piece using list
 [4, 3]
 ```
 
-Here, `1` is the starting index, the first index to be included in the slice. On the other hand, `3` is the ending index, the index **after the last index** to be included. This means that the element at the ending index is not actually included in the slice. We can also leverage some Python defaults:
+Here, `1` is the starting index, the first index to be included in the slice. On the other hand, `3` is the ending index, the index **after the last index** to be included. This means that the element at the ending index is not actually included in the slice (this is like the `range` function we saw last time with for loops).
+
+The format for slicing is `list[start:end:increment]` with `start` defaulting to `0`, end defaulting to `len(list)`, and `increment` defaulting to `1`. If you do not specify an index/amount for the above, they will default to their respective default values:
 
 ```python
 >>> randoms[:2] # the default starting index is 0, so omitting it defaults to 0
@@ -74,9 +76,37 @@ Here, `1` is the starting index, the first index to be included in the slice. On
 [7, 1]          # note that when slicing, referring to the length of the list as the ending index is okay. why?
 >>> randoms[:]  # if we omit both, this effectively just creates a copy of the whole list
 [2, 4, 3, 7, 1]
+>>> randoms[1:0] # note that if the end isn't greater than the start, you'll get an empty list!
+[]
+>>> randoms[::2] # We can also increment by 2 to get every other value in the list!
+[2, 3, 1]
 ```
 
 One of the comments in that example was a question. If you didn't figure it out, that's okay! I'm here to give you the answers -- when you slice a list, the ending index effectively tells the interpreter to stop duplicating elements **right before this index.** This means that if you told the interpreter that the ending index is the length of the list, it wouldn't actually try to look into an element at that index. As such, we won't violate zero-indexing by using the length as our last index -- we'll just go all the way to the end in our slice!
+
+Another way to think of splicing is through a `while` loop:
+```python
+>>> list = [1, 2, 3, 4, 5, 6]
+>>> start = 1
+>>> end = 5
+>>> increment = 2
+>>> i = start
+>>> new_list = []
+>>> while i < end:
+...     new_list += [list[i]]
+...     i += increment
+>>> new_list
+[2, 4]
+```
+versus
+```python
+>>> list = [1, 2, 3, 4, 5, 6]
+>>> new_list = list[1:5:2]
+>>> new_list
+[2, 4]
+```
+
+Both do the same thing but slicing sure seems shorter **and** easier to understand. Slicing is the more pythonic way to go about this, so don't be afraid to use it — it saves you from having to do the huge ugly while loop.
 
 ## Digression: `for`
 As promised in the `for` notes, I'm going to clarify everything that I left unclarified. Now that you know what a list is, it's a good time to tell you that the `<expression>` in a `for` loop is an *iterable*, which for now is anything you can iterate over. That is, something like a list which has multiple elements that you can go over one by one. This means that the `<expression>` part of a `for` loop is effectively a list for now, and when you create a `for` loop you're basically going over the elements of list one by one.
