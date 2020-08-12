@@ -5,34 +5,35 @@ The course itself is pretty dense in terms of material covered, but this guide w
 *TODO: Figure out a short but detailed set of topics to cover here.*
 
 ## Week 1. Welcome to 61A!
-- [ ] About This Guide
-- [ ] Computer Science, Briefly
-- [ ] Setup (Lab 0)
-- [ ] What is CS 61A?
-- [ ] Expressions & Names
-- [ ] Functions
-- [ ] Environment Diagrams
+- [x] About This Guide
+- [x] Computer Science, Briefly
+- [x] Setup (Lab 0)
+- [x] What is CS 61A?
+- [x] Expressions & Names
+- [x] Functions
+- [x] Environment Diagrams
 
 ## Week 2. Head First Into Python
-- [ ] Conditions
-- [ ] Loops
-- [ ] Lambdas
-- [ ] Higher Order Functions
-- [ ] Environments
+- [x] Conditions
+- [x] Conditional Operators
+- [x] Loops
+- [x] Lambdas
+- [x] Higher Order Functions
+- [x] Environments
 
 ## Week 3. Theory & Practice
 - [ ] Design
 - [ ] Coding Practices & PEP8
 
 ## Week 4. Recursion
-- [ ] For Statements
-- [ ] Containers
+- [x] For Statements
+- [x] Containers
 - [ ] Introduction to Recursion
 - [ ] Recursion vs. Iteration, Examples
 - [ ] Tree Recursion
 
 ## Week 5. Abstraction
-- [ ] Data Abstraction
+- [x] Data Abstraction
 - [ ] Trees
 
 ## Week 6. Object-Oriented Programming
@@ -65,7 +66,7 @@ The course itself is pretty dense in terms of material covered, but this guide w
 - [ ] Tail Recursion
 
 ## Week 11. Macros & Streams
-- [ ] Macros
+- [x] Macros
 - [ ] Streams
 
 ## Week 12. Declarative Programming & Intro to SQL
