@@ -1,6 +1,7 @@
 ---
 title: "Macros"
 weight: 1
+authors: ["Vanshaj Singhania"]
 ---
 
 So far, we've seen some of the basics of Scheme that are parallel to the concepts we learned with Python. Things like procedures, recursion, etc., are pretty standard across most programming languages. One of the things that not a lot of languages offer, though, is macros.
